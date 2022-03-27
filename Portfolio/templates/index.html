@@ -1,0 +1,115 @@
+{% extends "layout.html" %}
+
+{% block main %}
+    <!-- **************************************************** Introduction **************************************************** -->
+    <!-- Title for section start -->
+    <div class="title-section">
+        <h1 class="title-header">Introduction</h1>
+    </div>
+    <!-- Title for section ends -->
+   
+    <!-- Introduction section starts -->
+    <div class="section-body watched">
+        <div class="section-content">
+
+            <!-- Hidden picture until screen size is 720px Then it will display on top of content -->
+            <!-- Section row 1 starts -->
+            <div class="section-content-row">
+                <div class="my-pic-display-top">
+                    <img src="static\profile-pic.png"/>
+                </div>
+            </div>
+            <!-- Section row 1 ends -->
+
+            <!-- Section row 2 starts -->
+            <div class="section-content-row">
+
+                <!-- Collumn 1 starts -->
+                <div>
+                    <h1 class="my-header-1">Hi!</h1>
+                    <h1 class="my-header-2">My name is Daniel.</h1>
+                    <h1 class="my-header-3">I Code stuff for the Internet.</h1>
+                </div>  
+                <!-- Collumn 1 ends -->
+                
+                <!-- Collumn 2 starts -->
+                <div class="my-pic">
+                    <img src="static\profile-pic.png"/>
+                </div>
+                <!-- Collumn 2 ends -->
+
+            </div>
+            <!-- Section row 2 ends -->
+
+            <!-- Section row 3 starts-->
+            <div class="section-content-row">
+                <p class="basic-text"><span class="first-letter">W</span>elcome to my Portfolio page. I hope when you are done checking it out you will feel secure about hiring me on your project.</p>
+            </div>
+            <!-- Section row 3 ends -->
+
+        </div>
+    </div>
+    <!-- **************************************************** Introduction ends **************************************************** -->
+
+    <!-- **************************************************** About me **************************************************** -->
+    <!-- Title for About me Starts -->
+    <div class="title-section">
+        <h1 id="about" class="title-header">About me</h1>
+    </div>
+    <!-- Title for about me ends -->
+
+    <!-- About me section starts -->
+    <div class="section-body watched">
+        <div class="section-content">
+
+             <!-- Section row 1 ends -->
+            <div class="section-content-row">
+                <div class="my-pic-display-top">
+                    <img src="static\tech-pic.png"/>
+                </div>
+            </div>
+             <!-- Section row 2 ends -->
+
+            <!-- Section row 2 starts -->
+            <div class="section-content-row">
+
+                <!-- Collumn 1 starts -->
+                <div>
+                    <h1 class="my-header-1">Who?</h1>
+                    <h1 class="my-header-2">Computer Enthusiast</h1>
+
+                </div>
+                <!-- Collumn 1 ends -->
+                
+                <!-- Collumn 2 start -->
+                <div class="my-pic">
+                    <img src="static\tech-pic.png"/>
+                </div>
+                <!-- Collumn 2 ends -->
+
+            </div>
+            <!-- Section row 2 ends -->
+
+            <!-- Section row 3 starts -->
+            <div class="section-content-row">
+                <div class="section-content-col">
+                    <p class="basic-text-header"><span class="highlight">{</span>My Qualities<span class="highlight">}</span></p>
+                    <p class="basic-text"><span class="first-letter">W</span>elcome to my Portfolio page. I hope when you are done checking it out you will feel secure about hiring me on your project.</p>
+                </div>  
+                <p class="break-line"></p>
+                <div class="section-content-col">
+                    <p class="basic-text-header"><span class="highlight">{</span>My Passions<span class="highlight">}</span></p>
+                    <p class="basic-text"><span class="first-letter">W</span>elcome to my Portfolio page. I hope when you are done checking it out you will feel secure about hiring me on your project.</p>
+                </div>
+            </div>
+            <!-- Section row 3 ends -->
+            <!-- Section row 4 starts-->
+            <div class="section-content-row" style="justify-content:center;">
+                <a href="/about" class="my-button">Read More</a>
+            </div>
+            <!-- Section row 4 ends -->
+        </div>
+    </div>
+    <!-- About me section ends -->
+    <!-- **************************************************** About me ends **************************************************** -->
+{% endblock %}

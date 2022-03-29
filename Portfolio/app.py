@@ -22,3 +22,6 @@ def projects():
 @app.route('/exp', methods=['GET'])
 def exp():
     return render_template('exp.html')
+
+if __name__ == "__main__":
+    app.run()

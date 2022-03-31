@@ -19,7 +19,7 @@ main {
 }
 footer {
     border-top: 40px solid #0f222b;
-    background-color: white;
+    background-color: #1b3c4b;
 }
 /**********************************************************************************************************************/
 
@@ -83,15 +83,22 @@ footer {
 .break-1080 {
     display:flex;
 }
+.footer {
+    display: flex;
+    justify-content: center;
+}
+.footer > a {
+    margin: 10px;
+}
 .project-card{
     background-color: #173341;
     box-shadow: 3px 3px 2px 2px #060f13;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
-    margin: 40px 5px;
+    margin: 40px 10px;
     padding: 5px;
     border-radius: 10px;
-
+    min-height:240px;
     box-sizing: border-box;
 
     
@@ -134,14 +141,19 @@ footer {
     border-radius: 3px;
     box-shadow: 3px 3px 3px 2px #060f13;
     display:flex;
+
+
 }
 .section-content-row {
     display:flex;
+
 }
 .section-content-row__project {
-    display: -webkit-flex;
+
     position: relative;
     overflow-wrap: break-word;
+    flex:1 1 0px;
+    
 }
 .section-content-col {
     display:block;

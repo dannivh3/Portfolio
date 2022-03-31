@@ -16,8 +16,17 @@ def about():
     return render_template('about.html')
 
 @app.route('/projects', methods=['GET'])
+@app.route('/projects/', methods=['GET'])
 def projects():
     return render_template('projects.html')
+
+@app.route('/projects/famdia', methods=['GET'])
+def famdia():
+    return render_template('famdia.html')
+
+@app.route('/projects/weatherwear', methods=['GET'])
+def weatherwear():
+    return render_template('weatherwear.html')
 
 @app.route('/exp', methods=['GET'])
 def exp():
